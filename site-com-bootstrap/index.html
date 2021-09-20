@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Rally Jonn</title>
+  <!-- Importando Bootstrap CSS -->
+  <link rel="stylesheet" href="Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: burlywood;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> Rally Jonn</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Capacetes e Macacões </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> Peças </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Motos
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#"> Yamaha Wr 250 F </a></li>
+              <li><a class="dropdown-item" href="#"> Ktm Sx250f Sxf </a></li>
+              <li><a class="dropdown-item" href="#"> Honda CRF 230F</a></li>
+              <li><a class="dropdown-item" href="#"> Yamaha Yz250f </a></li>
+              <li><a class="dropdown-item" href="#"> Honda Xr250 Tornado </a></li>
+            </ul>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"> Contato</a>
+          </li>
+          </li>
+          </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button class="btn btn-outline-secundary" type="submit"> Procurar </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="4000">
+        <img src="img/Motocross3-carousel.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/Motocross1-carousel.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item" data-bs-interval="4000">
+        <img src="img/Motocross2-carousel.jpg" class="d-block w-100" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"> Anterior </span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden"> Proxima </span>
+    </button>
+  </div>
+
+  <div class="row"> <!-- Abertura da linha -->
+
+    <div class="col-sm-12 col-md-3 p-4"> <!-- Abertura da coluna da lista / SM -SMALL / MD - MEDIUM   -->
+      <ul class="list-group">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+      </ul>
+    </div> <!-- Fechamento da coluna da lista -->
+
+
+    <div class="col-md-9 col-sm-12"> <!-- Abertura da coluna dos cartões -->
+
+        <div class="row p-4"> <!-- Abertura da primeira linha do cartão -->
+            <div class="col-md-4 col-sm-12"> <!-- Card 1 primeira linha -->
+            <div class="card mt-2" style="width: 18rem;"> 
+              <img src="img/Uniformes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Uniformes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  
+          </div> <!-- Fechamento card 1 -->
+
+          <div class="col-md-4 col-sm-12"> <!-- Card 2 primeira linha --> <!-- Coluna individual card -->
+            <div class="card mt-2" style="width: 18rem;">
+              <img src="img/manobras.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Manobras</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div> 
+            </div>
+          </div> <!-- Fechamento card 2 -->
+
+          <div class="col-md-4 col-sm-12"> <!-- Card 3 primeira linha --> <!-- Coluna individual card -->
+            <div class="card mt-2" style="width: 18rem;">
+              <img src="img/Reparos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Reparos</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>            
+          </div> <!-- Fechamento card 3 -->
+        </div> <!-- Fechamento da primeira linha -->
+
+        <div class="row p-4" > <!-- Abertura da segunda linha do cartão --> 
+            <div class="col-md-4 col-sm-12"> <!-- Card 1 segunda linha --> <!-- Coluna individual card -->
+            <div class="card mt-2" style="width: 18rem;"> 
+              <img src="img/Equipes.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Equipes</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>  
+          </div> <!-- Fechamento card 1 -->
+
+          <div class="col-md-4 col-sm-12"> <!-- Card 2 segunda linha --> <!-- Coluna individual card -->
+            <div class="card mt-2" style="width: 18rem;">
+              <img src="img/Trilhas.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Trilhas</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div> <!-- Fechamento card 2 -->
+
+          <div class="col-md-4 col-sm-12"> <!-- Card 3 segunda linha --> <!-- Coluna individual card -->
+            <div class="card mt-2" style="width: 18rem;">
+              <img src="img/Campeonatos.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Campeonatos</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-secundary">Go somewhere</a>
+              </div>
+            </div>            
+          </div> <!-- Fechamento card 3 -->
+        </div> <!-- Fechamento da segunda linha dos cartões -->
+      
+      </div> <!-- Fechamento da col de 9 -->
+    </div> <!-- Fechamento da Linha -->
+
+  <!-- O Javascript deve ser importado antes do fechamento de body -->
+  <!-- Importando Bootstrap JS -->
+  <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

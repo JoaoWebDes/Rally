@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+
+
+}
+
+.card{ /* Modificando o Cartão */
+    
+    background-color: bisque ;
+    margin: auto;
+
+}
+.list-group{ /* Modificando a Lista */
+
+    margin: 10px;
+    
+}
+
+.list-group-item{
+
+    background-color: bisque;
+    color: black;
+}
+
+.btn{
+    background-color: burlywood;
+    
+    border: none;
+
+
+}
+
